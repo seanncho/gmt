@@ -584,13 +584,6 @@ if (firstName !== null && firstName !== "") {
         location.reload();
     });
 } else {
-    var nameInput = prompt("Please enter your first name:");
-    if (nameInput !== "" && nameInput !== null) {
-        document.getElementById("firstName").value = nameInput;
-        if(nameInput !== null && nameInput !== "") {
-            setData("firstName", nameInput, 30);
-        }
-    }
     document.getElementById("greeting").innerHTML = "Welcome, new user!";
 }
 
