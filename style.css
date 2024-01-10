@@ -1,0 +1,301 @@
+/*CSS*/
+
+body {
+    margin: 0;
+    background-color: azure;
+    font-size: 16px;
+}
+
+table {
+    width: fit-content;
+    margin: 40px auto;
+    font-family: "Courier New", monospace;
+    background-color: #89cff0;
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+td {
+    margin: 8px 0;
+    padding: 0;
+    float: left;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+}
+
+h2,
+h3,
+p {
+    font-family: "Courier New", monospace;
+}
+
+label {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+}
+
+input {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+}
+
+select {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 18ch; 
+}
+
+textarea {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    max-width: 560px;
+}
+
+footer {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.topPart {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.endOfForm {
+    float: none;
+    text-align: center;
+}
+
+/*BUTTONS*/
+button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    padding: 4px;
+    margin-bottom: 64px;
+}
+button:hover,
+#getdata:hover,
+#submit:enabled:hover,
+#clear:hover,
+#validate:hover {
+    background-color: #d3d3d3;
+}
+#submit:disabled:hover {
+    background-color: none;
+}
+
+/*IMPORTANT: for table rows with multiple input fields*/
+.multiLine {
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+/*ERRORS*/
+.error,
+.pwderror {
+    color: red;
+    font-family: Sans-Serif;
+    font-size: 12px;
+}
+
+/*LOGO*/
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 256px;
+}
+#logo:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+
+/*SLIDER CSS*/
+.sliderValue {
+    float: none;
+    text-align: center;
+    align-items: center;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+}
+
+/*REQUIRED FIELD CSS*/
+.required:after {
+    content: " *";
+    color: rgba(255, 0, 0, 0.5);
+}
+.context {
+    float: none;
+    text-align: right;
+    padding-top: 24px;
+}
+
+/*IFRAMES*/
+iframe {
+    border: none;
+}
+
+/*GREETING*/
+#greeting {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*STICKY HEADER*/
+.header {
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #555;
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    z-index:9; 
+    opacity: 0.9;
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    margin: 0;
+}
+.sticky + .content {
+    padding-top: 100px;
+}
+
+/*NAVBAR*/
+.coolinks {
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    color:aliceblue;
+    text-align: center;
+    opacity: 1;
+}
+.headerClass1 {
+    display: inline;
+    font-size: xx-large;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.headerUserData {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*NEW TAB*/
+.body2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*OUTPUT CSS*/
+.output {
+    width: fit-content;
+    background-color: #d3d3d3;
+}
+.output th{
+    float: none;
+    text-align: center;
+    font-size: xx-large;
+}
+.outputData{
+    min-width: 200px;
+    max-width: 300px;
+    width:fit-content;
+    background-color: aliceblue;
+    text-align:left;
+    float:none;
+    padding:10px;
+    border-spacing:2px;
+    border-radius:5px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+.outputName{
+    min-width: 100px;
+    max-width: 300px;
+    width:fit-content;
+    text-align:left;
+    float:none;
+}
+
+/*RECAPTCHA*/
+.recaptcha {
+    width: 304px;
+    margin: 0 auto;
+}
+.bruh {
+    width: 100%;
+}
+
+/*LINKS*/
+a:link{
+    color:blue;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:blue;
+}
+a:focus{
+    color:blue;
+}
+a:active{
+    color:blue;
+}
+
+/*RESPONSIVE*/
+     @media only screen and (max-width: 40em){
+
+          .jt-feedback.u-responsive-lightbox.ui-draggable{
+
+              margin-top:30px !important;
+
+              top:0px !important;
+
+              position:fixed !important;
+
+          }
+
+     }
