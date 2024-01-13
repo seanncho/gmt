@@ -316,19 +316,22 @@ html, body {
 /*LINKS*/
 a:link{
     text-decoration: none;
+    transition: color 0.5s ease-in-out;
     color:blue;
 }
 a:visited{
     text-decoration: none;
+    transition: color 0.5s ease-in-out;
     color:blue;
 }
 a:hover{
     text-decoration: underline;
-    transition: color 0.5s ease;
+    transition: color 0.5s ease-in-out;
     color: purple;
 }
 a:active{
     text-decoration: underline;
+    transition: color 0.5s ease-in-out;
     color:blue;
 }
 
