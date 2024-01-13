@@ -315,18 +315,20 @@ html, body {
 
 /*LINKS*/
 a:link{
+    text-decoration: none;
     color:blue;
 }
 a:visited{
+    text-decoration: none;
     color:blue;
 }
 a:hover{
-    color:blue;
-}
-a:focus{
-    color:blue;
+    text-decoration: underline;
+    transition: color 0.5s ease;
+    color: purple;
 }
 a:active{
+    text-decoration: underline;
     color:blue;
 }
 
