@@ -186,6 +186,11 @@ button:hover,
     font-family: "Courier New", monospace;
     font-size: 16px;
 }
+input[type="range"] { 
+    width:24em;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 /*REQUIRED FIELD CSS*/
 .required:after {
