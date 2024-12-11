@@ -229,7 +229,8 @@ iframe {
     color: #f1f1f1;
     width: 100%;
     text-align: center;
-    z-index:9; 
+    backdrop-filter: blur(10px);
+    z-index: 1000;
     opacity: 0.9;
     width: 100%;
 }
