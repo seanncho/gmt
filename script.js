@@ -39,6 +39,7 @@ function checkFlags() {
     const flags = Object.values(errorFlags);
     const allFlagsValid = flags.every(flag => flag === true);
     submitButton.disabled = !allFlagsValid;
+    console.log(allFlagsValid);
 }
 
 // First name validation
@@ -633,3 +634,4 @@ function displayData() {
         newTab.document.write("</body></html>");
     }
 }
+
