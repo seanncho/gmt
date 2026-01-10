@@ -296,7 +296,7 @@ footer {
 /* Responsive Design */
 @media only screen and (max-width: 768px) {
     .content {
-        margin-top: 140px;
+        margin-top: 160px;
         padding: 15px;
     }
 
